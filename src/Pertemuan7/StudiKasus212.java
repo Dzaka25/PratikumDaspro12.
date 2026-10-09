@@ -29,17 +29,7 @@ public class StudiKasus212 {
                     System.out.println("Status : Pendanaan tidak diberikan karena tidak juara");
                 }
             } else {
-                if (jenisKegiatan.equalsIgnoreCase("PKM")) {
-                    System.out.println("Apakah anda lolos pendanaan?(true/false) : ");
-                    status = sc.nextBoolean();
-                    if (status == true) {
-                        System.out.println("Status : Pendanaan diberikan");
-                    } else {
-                        System.out.println("Status : Pendanaan tidak diberikan");
-                    }
-                } else {
-                    System.out.println("Maaf, anda mengikuti kegiatan lain");
-                }
+                
             }
         } else {
              syaratDokumen = 4 - jumlahDokumen;
